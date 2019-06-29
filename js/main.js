@@ -59,7 +59,7 @@ var renderAds = function (adsData) {
     adElements.appendChild(adElement);
   }
   return adElements;
-}
+};
 
 var AdsOnMap = renderAds(generatedAdsData);
 
